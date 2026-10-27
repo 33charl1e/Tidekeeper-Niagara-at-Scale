@@ -1,0 +1,7 @@
+* text=auto
+*.pdf binary
+*.uasset binary
+*.umap binary
+*.png binary
+*.mp4 binary
+*.log -text -diff

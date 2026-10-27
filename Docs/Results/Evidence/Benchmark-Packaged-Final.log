@@ -1,0 +1,1150 @@
+﻿Log file open, 10/26/26 14:42:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Win64/UnrealTraceServer.exe')
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,bookmark,region'
+LogCore: Display: Trace started (writing to file "D:/UnrealProjects/NiagaraHerd/Saved/Profiling/Tidekeeper-Final.utrace").
+LogTrace: Display: Control listening on port 1985
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9711] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900HX"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" -windowed -ResX=1920 -ResY=1080 -unattended -nosplash -nosound -statnamedevents -HerdTestExit=200 -ExecCmds="herd.Benchmark 1,stat Niagara,stat GPU" -trace=cpu,gpu,frame,bookmark,region -tracefile=D:\UnrealProjects\NiagaraHerd\Saved\Profiling\Tidekeeper-Final.utrace -abslog=D:\UnrealProjects\NiagaraHerd\Saved\Logs\Benchmark-Packaged-Final.log""
+LogCsvProfiler: Display: Metadata set : loginid="a13ee3264a18e13693f5219565d632a7"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPakFile: Initializing PakPlatformFile
+LogIoDispatcher: Display: Reading toc: ../../../NiagaraHerd/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../NiagaraHerd/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../NiagaraHerd/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../NiagaraHerd/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../NiagaraHerd/Content/Paks/NiagaraHerd-Windows.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../NiagaraHerd/Content/Paks/NiagaraHerd-Windows.pak.
+LogIoDispatcher: Display: Reading toc: ../../../NiagaraHerd/Content/Paks/NiagaraHerd-Windows.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../NiagaraHerd/Content/Paks/NiagaraHerd-Windows.utoc, Id=cd77553d4fdcd4a4, Order=4, EntryCount=1785, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../NiagaraHerd/Content/Paks/NiagaraHerd-Windows.utoc' in location slot 0
+LogFilePackageStore: Mounting container: Id=cd77553d4fdcd4a4, Order=4, NumPackages=442
+LogPakFile: Display: Mounted IoStore container "../../../NiagaraHerd/Content/Paks/NiagaraHerd-Windows.utoc"
+LogPakFile: Display: Mounted Pak file '../../../NiagaraHerd/Content/Paks/NiagaraHerd-Windows.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.111412
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../NiagaraHerd/AssetRegistry.bin'
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: OS requested locale 'en-US' is not supported. Using the OS requested language of 'en-US' as the locale.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-BD2E840845C5AE0C33FA67BB77EDD9E9
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../NiagaraHerd/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GPUReshape
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin USDImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin FabLauncher
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AnalyticsBlueprintLibrary
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - CVarHttpCurlReuseConnectionEnabled = true  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: NiagaraHerd.exe
+LogInit: Build: ++UE5+Release-5.7-CL-51494982
+LogInit: Platform=Windows
+LogInit: MachineId=a13ee3264a18e13693f5219565d632a7
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.4-51494982+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: Windows 11 (25H2) [10.0.26200.9711] (), CPU: Intel(R) Core(TM) i9-14900HX, GPU: NVIDIA GeForce RTX 4080 Laptop GPU
+LogInit: CPU Model ID: 6b71, microcode revision: 12b
+LogInit: Compiled (64-bit): Mar  6 2026 12:47:26
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.44.35223.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line:  -windowed -ResX=1920 -ResY=1080 -unattended -nosplash -nosound -statnamedevents -HerdTestExit=200 -ExecCmds="herd.Benchmark 1,stat Niagara,stat GPU" -trace=cpu,gpu,frame,bookmark,region -tracefile=D:\UnrealProjects\NiagaraHerd\Saved\Profiling\Tidekeeper-Final.utrace -abslog=D:\UnrealProjects\NiagaraHerd\Saved\Logs\Benchmark-Packaged-Final.log
+LogInit: Base Directory: D:/UnrealProjects/NiagaraHerd/Packaged/Windows/NiagaraHerd/Binaries/Win64/
+LogInit: Allocator: Binned2
+LogInit: Installed Engine Build: 0
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 41
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 225
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 61
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   FN-Main-InterchangePipeline (B69D2E47-E2A8-4003-BF77-18A492C4D899): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   Dev-RigVM (DC49959B-53C0-4DE7-9156-EA885E7C5D39): 19
+LogDevObjectVersion:   Dev-ControlRig (A7820CFB-20A7-4359-8C54-2C149623CF50): 40
+LogDevObjectVersion:   Dev-Optimus (93EDE1AA-10CA-7375-4DF9-8A2849B157A0): 14
+LogDevObjectVersion:   Dev-IKRig (F6DFBB78-BB50-A0E4-4018-B84D60CBAF23): 11
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: Set CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]]
+LogConfig: Set CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]]
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Substrate.RoughDiffuse:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Substrate.SheenQuality:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Substrate.ShadingQuality:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Substrate.TileCoord8bits:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Substrate.Glints:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Substrate.ClosuresPerPixel:4]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Refraction.Blur:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.ReflectionMethod:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.RayTracing:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Bias:0.0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.10.26-18.42.08:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.10.26-18.42.08:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.10.26-18.42.08:435][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.10.26-18.42.08:436][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.10.26-18.42.08:436][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.10.26-18.42.08:436][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.10.26-18.42.08:436][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="BufferBloat",ToolTip="Simulates a connection affected by buffer bloat (in and out)")]] deferred - dummy variable created
+[2026.10.26-18.42.08:502][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1920"
+[2026.10.26-18.42.08:502][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="1080"
+[2026.10.26-18.42.08:502][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MarkCoarsePagesLocal:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.HZB:0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.ForegroundSampleRejectPower:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.10.26-18.42.08:502][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Dim:64]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Blur:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Precision:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.10.26-18.42.08:503][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.10.26-18.42.08:503][  0]LogRHI: Using Default RHI: D3D12
+[2026.10.26-18.42.08:514][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2026.10.26-18.42.08:514][  0]LogRHI: Loading RHI module D3D12RHI
+[2026.10.26-18.42.08:514][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2026.10.26-18.42.08:515][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2026.10.26-18.42.08:768][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 4080 Laptop GPU (VendorId: 10de, DeviceId: 27e0, SubSysId: 34f81043, Revision: 00a1
+[2026.10.26-18.42.08:768][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2026.10.26-18.42.08:768][  0]LogD3D12RHI:   Adapter has 11995MB of dedicated video memory, 0MB of dedicated system memory, and 48770MB of shared system memory, 1 output[s], UMA:false
+[2026.10.26-18.42.08:768][  0]LogD3D12RHI:   Driver Version: 617.42 (internal:32.0.16.1742, unified:617.42)
+[2026.10.26-18.42.08:768][  0]LogD3D12RHI:      Driver Date: 9-30-2026
+[2026.10.26-18.42.08:828][  0]LogD3D12RHI: Intel Extensions Framework not supported by driver. Please check if a driver update is available.
+[2026.10.26-18.42.08:834][  0]LogD3D12RHI: Found D3D12 adapter 1: Intel(R) UHD Graphics (VendorId: 8086, DeviceId: a788, SubSysId: 34f81043, Revision: 0004
+[2026.10.26-18.42.08:834][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 unsupported
+[2026.10.26-18.42.08:834][  0]LogD3D12RHI:   Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 48770MB of shared system memory, 0 output[s], UMA:true
+[2026.10.26-18.42.08:834][  0]LogD3D12RHI:   Driver Version: 31.0.101.5333 (internal:31.0.101.5333, unified:101.5333)
+[2026.10.26-18.42.08:834][  0]LogD3D12RHI:      Driver Date: 2-21-2024
+[2026.10.26-18.42.08:842][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2026.10.26-18.42.08:842][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2026.10.26-18.42.08:842][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 48770MB of shared system memory, 0 output[s], UMA:true
+[2026.10.26-18.42.08:843][  0]LogD3D12RHI:   D3D10Warp Version: 10.0.26100.9711
+[2026.10.26-18.42.09:054][  0]LogD3D12RHI: Found D3D12 adapter 3: NVIDIA GeForce RTX 4080 Laptop GPU (VendorId: 10de, DeviceId: 27e0, SubSysId: 34f81043, Revision: 00a1
+[2026.10.26-18.42.09:054][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2026.10.26-18.42.09:054][  0]LogD3D12RHI:   Adapter has 11995MB of dedicated video memory, 0MB of dedicated system memory, and 48770MB of shared system memory, 0 output[s], UMA:false
+[2026.10.26-18.42.09:054][  0]LogD3D12RHI:   Driver Version: 617.42 (internal:32.0.16.1742, unified:617.42)
+[2026.10.26-18.42.09:054][  0]LogD3D12RHI:      Driver Date: 9-30-2026
+[2026.10.26-18.42.09:055][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2026.10.26-18.42.09:055][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2026.10.26-18.42.09:055][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2026.10.26-18.42.09:055][  0]LogInit: Selected Device Profile: [Windows]
+[2026.10.26-18.42.09:055][  0]LogHAL: Display: Platform has ~ 64 GB [68319436800 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.26-18.42.09:055][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.26-18.42.09:055][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.10.26-18.42.09:055][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.10.26-18.42.09:055][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.26-18.42.09:055][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.10.26-18.42.09:055][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.10.26-18.42.09:055][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.10.26-18.42.09:055][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.26-18.42.09:055][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.10.26-18.42.09:055][  0]LogConfig: Set CVar [[WindowsApplication.UseWorkerThreadForRawInput:0]]
+[2026.10.26-18.42.09:055][  0]LogInit: Computer: 33CHARL1E
+[2026.10.26-18.42.09:055][  0]LogInit: User: 33charl1e
+[2026.10.26-18.42.09:055][  0]LogInit: CPU Page size=4096, Cores=24
+[2026.10.26-18.42.09:055][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.10.26-18.42.09:055][  0]LogInit: Handheld Device: 0
+[2026.10.26-18.42.09:055][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2026.10.26-18.42.09:055][  0]LogMemory: Memory total: Physical=63.6GB (64GB approx) Virtual=71.4GB
+[2026.10.26-18.42.09:055][  0]LogMemory: Platform Memory Stats for Windows
+[2026.10.26-18.42.09:055][  0]LogMemory: Process Physical Memory: 222.57 MB used, 350.21 MB peak
+[2026.10.26-18.42.09:055][  0]LogMemory: Process Virtual Memory: 178.23 MB used, 181.52 MB peak
+[2026.10.26-18.42.09:055][  0]LogMemory: Physical Memory: 28195.63 MB used,  36958.86 MB free, 65154.49 MB total
+[2026.10.26-18.42.09:055][  0]LogMemory: Virtual Memory: 53330.45 MB used,  19760.04 MB free, 73090.49 MB total
+[2026.10.26-18.42.09:055][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.26-18.42.09:059][  0]LogWindows: WindowsPlatformFeatures enabled
+[2026.10.26-18.42.09:059][  0]LogSpline: Registered spline type: TypeId=0x54E3AD22, Impl=MultiSpline, Value=Vector
+[2026.10.26-18.42.09:060][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.10.26-18.42.09:060][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.10.26-18.42.09:063][  0]LogInit: Using OS detected language (en-US).
+[2026.10.26-18.42.09:063][  0]LogInit: Using OS detected locale (en-US).
+[2026.10.26-18.42.09:063][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.10.26-18.42.09:102][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2026.10.26-18.42.09:102][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2026.10.26-18.42.09:102][  0]LogWindowsTextInputMethodSystem:   - Chinese (Simplified, Mainland China) - Microsoft Pinyin (TSF IME).
+[2026.10.26-18.42.09:102][  0]LogWindowsTextInputMethodSystem:   - English (United States) - Touch Input Correction (TSF IME).
+[2026.10.26-18.42.09:103][  0]LogWindowsTextInputMethodSystem: Activated input method: Chinese (Simplified, Mainland China) - Microsoft Pinyin (TSF IME).
+[2026.10.26-18.42.09:166][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetMaxTouchpadSensitivity
+[2026.10.26-18.42.09:168][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.26-18.42.09:169][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2026.10.26-18.42.09:169][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.10.26-18.42.09:242][  0]LogRHI: Using Default RHI: D3D12
+[2026.10.26-18.42.09:243][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2026.10.26-18.42.09:243][  0]LogRHI: Loading RHI module D3D12RHI
+[2026.10.26-18.42.09:243][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2026.10.26-18.42.09:243][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2026.10.26-18.42.09:243][  0]LogD3D12RHI: Integrated GPU (iGPU): false
+[2026.10.26-18.42.09:243][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2026.10.26-18.42.09:243][  0]LogWindows: Attached monitors:
+[2026.10.26-18.42.09:243][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY1' [PRIMARY]
+[2026.10.26-18.42.09:243][  0]LogWindows: Found 1 attached monitors.
+[2026.10.26-18.42.09:243][  0]LogWindows: Gathering driver information using Windows Setup API
+[2026.10.26-18.42.09:244][  0]LogRHI: RHI Adapter Info:
+[2026.10.26-18.42.09:244][  0]LogRHI:             Name: NVIDIA GeForce RTX 4080 Laptop GPU
+[2026.10.26-18.42.09:244][  0]LogRHI:   Driver Version: 617.42 (internal:32.0.16.1742, unified:617.42)
+[2026.10.26-18.42.09:244][  0]LogRHI:      Driver Date: 9-30-2026
+[2026.10.26-18.42.09:244][  0]LogD3D12RHI:     GPU DeviceId: 0x27e0 (for the marketing name, search the web for "GPU Device Id")
+[2026.10.26-18.42.09:244][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2026.10.26-18.42.09:364][  0]LogNvidiaAftermath: Aftermath initialized
+[2026.10.26-18.42.09:364][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2026.10.26-18.42.09:441][  0]LogNvidiaAftermath: Aftermath enabled. Active feature flags: 
+[2026.10.26-18.42.09:441][  0]LogNvidiaAftermath:  - Feature: EnableResourceTracking
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Bindless is supported. MaxNonSamplerDescriptors: 1000000, MaxSamplerDescriptors: 2048
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Raster order views are supported
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=32).
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI:      Legacy Barriers Present in Build: Yes
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI:    Enhanced Barriers Present in Build: Yes
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI:      Enhanced Barriers Driver Support: Yes
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Preferred Barrier Implementation Type: Legacy
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI:         Chosen Barrier Implementation: D3D12LegacyBarriers
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Work Graphs are supported
+[2026.10.26-18.42.09:441][  0]LogD3D12RHI: Bindless is enabled (Configuration=RayTracing). Initializing allocators with 32768 Resource and 2048 Sampler descriptors
+[2026.10.26-18.42.09:491][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001E02AFEF440)
+[2026.10.26-18.42.09:491][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001E02AFEF700)
+[2026.10.26-18.42.09:491][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001E02AFEF9C0)
+[2026.10.26-18.42.09:491][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2026.10.26-18.42.09:491][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2026.10.26-18.42.09:524][  0]LogD3D12RHI: NVIDIA Shader Execution Reordering interface supported!
+[2026.10.26-18.42.09:524][  0]LogD3D12RHI: NVIDIA Ray Tracing Cluster Operations supported and enabled
+[2026.10.26-18.42.09:524][  0]LogD3D12RHI: NVIDIA Extended ray tracing pipeline state applied.
+[2026.10.26-18.42.09:524][  0]LogRHI: Texture pool is 7073 MB (70% of 10104 MB)
+[2026.10.26-18.42.09:524][  0]LogD3D12RHI: Async texture creation enabled
+[2026.10.26-18.42.09:524][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2026.10.26-18.42.09:530][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2026.10.26-18.42.09:532][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D12"
+[2026.10.26-18.42.09:532][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D12"
+[2026.10.26-18.42.09:532][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.26-18.42.09:532][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.26-18.42.09:532][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.10.26-18.42.09:537][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2026.10.26-18.42.09:537][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Global. Total 9053 unique shaders.
+[2026.10.26-18.42.09:537][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2026.10.26-18.42.09:537][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2026.10.26-18.42.09:537][  0]LogTemp: Display: Clearing the OS Cache
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: Platform=PCD3D_SM6 (49)
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 1
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: ---
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: ---
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2026.10.26-18.42.09:544][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2026.10.26-18.42.09:556][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2026.10.26-18.42.09:556][  0]LogInit: XR: MultiViewport is Disabled
+[2026.10.26-18.42.09:556][  0]LogInit: XR: Mobile Multiview is Disabled
+[2026.10.26-18.42.09:564][  0]LogSlate: Using FreeType 2.10.0
+[2026.10.26-18.42.09:565][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.10.26-18.42.09:596][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library NiagaraHerd. Total 2544 unique shaders.
+[2026.10.26-18.42.09:596][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library NiagaraHerd
+[2026.10.26-18.42.09:596][  0]LogShaderLibrary: Display: Logical shader library 'NiagaraHerd' has been created as a monolithic library
+[2026.10.26-18.42.09:596][  0]LogRHI: Could not open FPipelineCacheFile: ../../../NiagaraHerd/Content/PipelineCaches/Windows/NiagaraHerd_PCD3D_SM6.stable.upipelinecache
+[2026.10.26-18.42.09:596][  0]LogRHI: Could not open FPipelineCacheFile: ../../../NiagaraHerd/Content/PipelineCaches/Windows/NiagaraHerd_PCD3D_SM6.stable.upipelinecache
+[2026.10.26-18.42.09:596][  0]LogShaderLibrary: Display: Tried to open again shader library 'NiagaraHerd', but could not find new components for it (existing components: 1).
+[2026.10.26-18.42.09:596][  0]LogRHI: Could not open FPipelineCacheFile: ../../../NiagaraHerd/Content/PipelineCaches/Windows/NiagaraHerd_PCD3D_SM6.stable.upipelinecache
+[2026.10.26-18.42.09:596][  0]LogInit: Using OS detected language (en-US).
+[2026.10.26-18.42.09:596][  0]LogInit: Using OS detected locale (en-US).
+[2026.10.26-18.42.09:596][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.10.26-18.42.09:596][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2026.10.26-18.42.09:596][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.10.26-18.42.09:596][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.10.26-18.42.09:597][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2026.10.26-18.42.09:696][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.26-18.42.09:696][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.26-18.42.09:697][  0]LogDeviceProfileManager: Active device profile: [00007FF4138D8040][000001E083334930 82] Windows
+[2026.10.26-18.42.09:697][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Windows"
+[2026.10.26-18.42.09:698][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.26-18.42.09:698][  0]LogFilePackageStore: Updated: NewPackages=442, OldPackages=0, TotalPackages=442
+[2026.10.26-18.42.09:872][  0]LogUsd: Attempted to call a static function from UnrealUSDWrapper before the module is actually loaded! The module will be loaded now, but not all static functions have this check. In general, please ensure an Unreal module is loaded before calling any of its static functions, for example by calling 'FModuleManager::LoadModuleChecked<IUnrealUSDWrapperModule>("UnrealUSDWrapper");' beforehand.
+[2026.10.26-18.42.09:888][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.26-18.42.09:890][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.26-18.42.09:891][  0]LogPackageLocalizationCache: Processed 69 localized package path(s) for 1 prioritized culture(s) in 0.000115 seconds
+[2026.10.26-18.42.09:893][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.10.26-18.42.09:895][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.10.26-18.42.09:897][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.26-18.42.09:907][  0]LogMoviePlayer: Initializing movie player
+[2026.10.26-18.42.09:909][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: C000F10A7D884E23800000000000EE00 | Instance: D43528A4460DDFFC5EFEE5B04804E864 (33CHARL1E-60572).
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT: 0: Intel(R) UHD Graphics (Compute, Graphics)
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT: 1: NVIDIA GeForce RTX 4080 Laptop GPU (Compute, Graphics)
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT:   NPU:       no
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT: Interface availability:
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT:   GPU: yes
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT:   RDG: yes
+[2026.10.26-18.42.09:970][  0]LogNNERuntimeORT:   NPU: no
+[2026.10.26-18.42.10:003][  0]LogNNERuntimeORT: No NPU adapter found with attributes (!GRAPHICS && (GENERIC_ML || CORE_COMPUTE)) (Windows 11 Version 24H2 or newer)!
+[2026.10.26-18.42.10:003][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.26-18.42.10:003][  0]LogNNERuntimeORT: 0: Intel(R) UHD Graphics (Compute, Graphics)
+[2026.10.26-18.42.10:003][  0]LogNNERuntimeORT: 1: NVIDIA GeForce RTX 4080 Laptop GPU (Compute, Graphics)
+[2026.10.26-18.42.10:003][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
+[2026.10.26-18.42.10:003][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.10.26-18.42.10:010][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.26-18.42.10:012][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.10.26-18.42.10:017][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.10.26-18.42.10:022][  0]LogUObjectArray: 28783 objects as part of root set at end of initial load.
+[2026.10.26-18.42.10:022][  0]LogUObjectArray: 4 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2026.10.26-18.42.10:022][  0]LogUObjectArray: CloseDisregardForGC: 28783/28783 objects in disregard for GC pool
+[2026.10.26-18.42.10:414][  0]LogEngine: Initializing Engine...
+[2026.10.26-18.42.10:442][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.10.26-18.42.10:442][  0]LogInit: Texture streaming: Enabled
+[2026.10.26-18.42.10:443][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.26-18.42.10:449][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.10.26-18.42.10:453][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-18.42.10:453][  0]LogInit: Display: Game Engine Initialized.
+[2026.10.26-18.42.10:453][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.10.26-18.42.10:462][  0]LogInit: Display: Starting Game.
+[2026.10.26-18.42.10:462][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/L_Herding?Name=Player"
+[2026.10.26-18.42.10:462][  0]LogNet: Browse: /Game/Maps/L_Herding?Name=Player
+[2026.10.26-18.42.10:463][  0]LogLoad: LoadMap: /Game/Maps/L_Herding?Name=Player
+[2026.10.26-18.42.10:463][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2026.10.26-18.42.10:463][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-18.42.10:463][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-18.42.10:467][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.26-18.42.10:474][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Herding
+[2026.10.26-18.42.10:476][  0]LogLoad: Game class is 'HerdGameMode'
+[2026.10.26-18.42.10:476][  0]LogWorld: Bringing World /Game/Maps/L_Herding.L_Herding up for play (max tick rate 0) at 2026.10.26-14.42.10
+[2026.10.26-18.42.10:478][  0]LogWorld: Bringing up level for play took: 0.000480
+[2026.10.26-18.42.10:479][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.26-18.42.10:499][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.26-18.42.10:499][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.26-18.42.10:500][  0]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E0905FC2F0
+[2026.10.26-18.42.10:500][  0]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E0905FC2F0
+[2026.10.26-18.42.10:500][  0]LogTemp: Display: HERD_ROUND run=1 mode=CPU count=500 assets=OK
+[2026.10.26-18.42.10:500][  0]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.42.10:500][  0]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.42.10:500][  0]LogLoad: Took 0.037879 seconds to LoadMap(/Game/Maps/L_Herding)
+[2026.10.26-18.42.10:500][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/L_Herding
+[2026.10.26-18.42.10:823][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 3140050290
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 678623322
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 1353440986
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 3677113228
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 1067232168
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 1253541765
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 2426818150
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 3169168135
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 863310323
+[2026.10.26-18.42.10:850][  0]LogRHI: Display: Encountered a new graphics PSO: 2982897946
+[2026.10.26-18.42.10:851][  0]LogRHI: Display: Encountered a new graphics PSO: 97087726
+[2026.10.26-18.42.10:851][  0]LogRHI: Display: Encountered a new graphics PSO: 317088521
+[2026.10.26-18.42.10:851][  0]LogRHI: Display: Encountered a new graphics PSO: 703340305
+[2026.10.26-18.42.10:851][  0]LogRHI: Display: Encountered a new graphics PSO: 2498152938
+[2026.10.26-18.42.10:851][  0]LogRHI: Display: Encountered a new graphics PSO: 4226233574
+[2026.10.26-18.42.10:852][  0]LogRHI: Display: Encountered a new graphics PSO: 1655226057
+[2026.10.26-18.42.10:852][  0]LogRHI: Display: Encountered a new graphics PSO: 3101192043
+[2026.10.26-18.42.10:977][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2026.10.26-18.42.10:977][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=32, PathHashSize=16, EntriesSize=32752, DirTreeIndexSize=148000, TotalSize=180800
+[2026.10.26-18.42.10:978][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2026.10.26-18.42.10:978][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2026.10.26-18.42.11:000][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.10.26-18.42.11:000][  0]LogLoad: (Engine Initialization) Total time: 2.81 seconds
+[2026.10.26-18.42.11:003][  0]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.11:003][  0]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.11:004][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.10.26-18.42.11:004][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.10.26-18.42.11:004][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-18.42.11:016][  0]LogSlate: Slate font cache was flushed
+[2026.10.26-18.42.11:016][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-18.42.11:016][  0]herd.Benchmark = "1"
+[2026.10.26-18.42.11:017][  1]LogTemp: Display: HERD_BENCHMARK_BEGIN
+[2026.10.26-18.42.11:018][  1]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E0905F6740
+[2026.10.26-18.42.11:018][  1]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E0905F6740
+[2026.10.26-18.42.11:018][  1]LogTemp: Display: HERD_ROUND run=2 mode=CPU count=500 assets=OK
+[2026.10.26-18.42.11:018][  1]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.42.11:018][  1]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.42.11:018][  1]LogTemp: Display: HERD_STATE real=0.0 run=2 mode=CPU count=500 rendered=0 rescued=0 callbacks=0 cpu_ms=0.000 frame_ms=1.358 serial=0 result=0 ortho=4400.0
+[2026.10.26-18.42.11:019][  1]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.11:019][  1]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.11:019][  1]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.10.26-18.42.11:021][  2]LogTemp: Display: HERD_SPAWN_LOCK rendered=500 requested=500
+[2026.10.26-18.42.11:022][  2]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.11:024][  3]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.11:051][  8]LogRHI: Display: Encountered a new graphics PSO: 3210649021
+[2026.10.26-18.42.11:051][  9]LogRHI: Display: Encountered a new graphics PSO: 1071997357
+[2026.10.26-18.42.13:021][471]LogTemp: Display: HERD_ATTRIBUTES pos=(-956.6,138.1,35.0) size=(-1.0,-1.0) scale=(0.280,0.085,0.055) color=(0.75,0.55,1.00,1.00)
+[2026.10.26-18.42.13:021][471]LogTemp: Display: HERD_STATE real=2.0 run=2 mode=CPU count=500 rendered=500 rescued=0 callbacks=470 cpu_ms=2.712 frame_ms=5.432 serial=470 result=469 ortho=4400.0
+[2026.10.26-18.42.15:029][808]LogTemp: Display: HERD_ATTRIBUTES pos=(-778.3,387.4,35.0) size=(-1.0,-1.0) scale=(0.280,0.085,0.055) color=(0.75,0.55,1.00,1.00)
+[2026.10.26-18.42.15:029][808]LogTemp: Display: HERD_STATE real=4.0 run=2 mode=CPU count=500 rendered=500 rescued=0 callbacks=807 cpu_ms=3.228 frame_ms=6.468 serial=807 result=806 ortho=4400.0
+[2026.10.26-18.42.17:035][124]LogTemp: Display: HERD_ATTRIBUTES pos=(-445.8,301.5,35.0) size=(-1.0,-1.0) scale=(0.280,0.085,0.055) color=(0.75,0.55,1.00,1.00)
+[2026.10.26-18.42.17:035][124]LogTemp: Display: HERD_STATE real=6.0 run=2 mode=CPU count=500 rendered=500 rescued=0 callbacks=1123 cpu_ms=3.674 frame_ms=6.451 serial=1123 result=1122 ortho=4400.0
+[2026.10.26-18.42.19:038][435]LogTemp: Display: HERD_ATTRIBUTES pos=(-360.6,-28.7,35.0) size=(-1.0,-1.0) scale=(0.280,0.085,0.055) color=(0.75,0.55,1.00,1.00)
+[2026.10.26-18.42.19:039][435]LogTemp: Display: HERD_STATE real=8.0 run=2 mode=CPU count=500 rendered=500 rescued=0 callbacks=1434 cpu_ms=3.682 frame_ms=6.376 serial=1434 result=1433 ortho=4400.0
+[2026.10.26-18.42.20:024][592]LogTemp: Display: HERD_BENCH CPU,500,0,785,6.3705,6.9512,3.6302,0,0,1591,true,500,true,3.6403,0.0084,0.0494,0.0000
+[2026.10.26-18.42.20:024][592]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E09DC448B0
+[2026.10.26-18.42.20:024][592]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E09DC448B0
+[2026.10.26-18.42.20:024][592]LogTemp: Display: HERD_ROUND run=3 mode=CPU count=1000 assets=OK
+[2026.10.26-18.42.20:024][592]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.42.20:024][592]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.42.20:028][592]LogTemp: Display: HERD_VM batch=1000 sim_count=1000 max_index=999
+[2026.10.26-18.42.20:029][592]LogTemp: Display: HERD_VM batch=1000 sim_count=1000 max_index=999
+[2026.10.26-18.42.20:032][593]LogTemp: Display: HERD_SPAWN_LOCK rendered=1000 requested=1000
+[2026.10.26-18.42.20:037][593]LogTemp: Display: HERD_VM batch=1000 sim_count=1000 max_index=999
+[2026.10.26-18.42.20:044][594]LogTemp: Display: HERD_VM batch=1000 sim_count=1000 max_index=999
+[2026.10.26-18.42.21:044][735]LogTemp: Display: HERD_STATE real=10.0 run=3 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=143 cpu_ms=4.815 frame_ms=7.503 serial=143 result=142 ortho=4400.0
+[2026.10.26-18.42.23:052][903]LogTemp: Display: HERD_STATE real=12.1 run=3 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=311 cpu_ms=12.453 frame_ms=15.392 serial=311 result=310 ortho=4400.0
+[2026.10.26-18.42.25:061][ 27]LogTemp: Display: HERD_STATE real=14.1 run=3 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=435 cpu_ms=14.309 frame_ms=17.113 serial=435 result=434 ortho=4400.0
+[2026.10.26-18.42.27:062][143]LogTemp: Display: HERD_STATE real=16.1 run=3 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=551 cpu_ms=15.518 frame_ms=17.333 serial=551 result=550 ortho=4400.0
+[2026.10.26-18.42.29:035][255]LogTemp: Display: HERD_BENCH CPU,1000,0,290,17.2188,19.3303,14.1677,0,0,663,false,1000,true,14.1913,0.0088,0.0593,0.0000
+[2026.10.26-18.42.29:035][255]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E08DDD9A30
+[2026.10.26-18.42.29:035][255]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E08DDD9A30
+[2026.10.26-18.42.29:035][255]LogTemp: Display: HERD_ROUND run=4 mode=CPU count=2000 assets=OK
+[2026.10.26-18.42.29:035][255]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.42.29:035][255]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.42.29:051][255]LogTemp: Display: HERD_VM batch=2000 sim_count=2000 max_index=1999
+[2026.10.26-18.42.29:051][255]LogTemp: Display: HERD_VM batch=2000 sim_count=2000 max_index=1999
+[2026.10.26-18.42.29:054][256]LogTemp: Display: HERD_SPAWN_LOCK rendered=2000 requested=2000
+[2026.10.26-18.42.29:069][256]LogTemp: Display: HERD_VM batch=2000 sim_count=2000 max_index=1999
+[2026.10.26-18.42.29:071][257]LogTemp: Display: HERD_STATE real=18.1 run=4 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=2 cpu_ms=13.842 frame_ms=18.108 serial=2 result=1 ortho=4400.0
+[2026.10.26-18.42.29:088][257]LogTemp: Display: HERD_VM batch=2000 sim_count=2000 max_index=1999
+[2026.10.26-18.42.31:083][338]LogTemp: Display: HERD_STATE real=20.1 run=4 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=83 cpu_ms=42.734 frame_ms=33.763 serial=83 result=82 ortho=4400.0
+[2026.10.26-18.42.33:122][377]LogTemp: Display: HERD_STATE real=22.1 run=4 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=122 cpu_ms=44.747 frame_ms=52.729 serial=122 result=121 ortho=4400.0
+[2026.10.26-18.42.35:170][414]LogTemp: Display: HERD_STATE real=24.2 run=4 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=159 cpu_ms=46.742 frame_ms=55.691 serial=159 result=158 ortho=4400.0
+[2026.10.26-18.42.37:188][449]LogTemp: Display: HERD_STATE real=26.2 run=4 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=194 cpu_ms=50.196 frame_ms=57.441 serial=194 result=193 ortho=4400.0
+[2026.10.26-18.42.38:070][465]LogTemp: Display: HERD_BENCH CPU,2000,0,89,56.1071,63.1068,53.0569,0,0,210,false,2000,true,53.0883,0.0085,0.0707,0.0000
+[2026.10.26-18.42.38:070][465]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E08F7B0160
+[2026.10.26-18.42.38:070][465]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E08F7B0160
+[2026.10.26-18.42.38:070][465]LogTemp: Display: HERD_ROUND run=5 mode=CPU count=3500 assets=OK
+[2026.10.26-18.42.38:070][465]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.42.38:070][465]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.42.38:120][465]LogTemp: Display: HERD_VM batch=3500 sim_count=3500 max_index=3499
+[2026.10.26-18.42.38:120][465]LogTemp: Display: HERD_VM batch=3500 sim_count=3500 max_index=3499
+[2026.10.26-18.42.38:123][466]LogTemp: Display: HERD_SPAWN_LOCK rendered=3500 requested=3500
+[2026.10.26-18.42.38:176][466]LogTemp: Display: HERD_VM batch=3500 sim_count=3500 max_index=3499
+[2026.10.26-18.42.38:228][467]LogTemp: Display: HERD_VM batch=3500 sim_count=3500 max_index=3499
+[2026.10.26-18.42.39:193][486]LogTemp: Display: HERD_STATE real=28.2 run=5 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=21 cpu_ms=52.747 frame_ms=54.859 serial=21 result=20 ortho=4400.0
+[2026.10.26-18.42.41:257][516]LogTemp: Display: HERD_STATE real=30.3 run=5 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=51 cpu_ms=91.615 frame_ms=73.460 serial=51 result=50 ortho=4400.0
+[2026.10.26-18.42.43:306][534]LogTemp: Display: HERD_STATE real=32.3 run=5 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=69 cpu_ms=117.940 frame_ms=106.730 serial=69 result=68 ortho=4400.0
+[2026.10.26-18.42.45:402][550]LogTemp: Display: HERD_STATE real=34.4 run=5 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=85 cpu_ms=117.091 frame_ms=125.609 serial=85 result=84 ortho=4400.0
+[2026.10.26-18.42.47:220][563]LogTemp: Display: HERD_BENCH CPU,3500,0,39,130.2717,153.1759,127.2646,0,0,98,false,3500,true,128.3233,0.0076,0.0853,0.0000
+[2026.10.26-18.42.47:220][563]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E08FE848B0
+[2026.10.26-18.42.47:220][563]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E08FE848B0
+[2026.10.26-18.42.47:220][563]LogTemp: Display: HERD_ROUND run=6 mode=CPU count=5000 assets=OK
+[2026.10.26-18.42.47:220][563]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.42.47:220][563]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.42.47:309][563]LogTemp: Display: HERD_VM batch=5000 sim_count=5000 max_index=4999
+[2026.10.26-18.42.47:310][563]LogTemp: Display: HERD_VM batch=5000 sim_count=5000 max_index=4999
+[2026.10.26-18.42.47:313][564]LogTemp: Display: HERD_SPAWN_LOCK rendered=5000 requested=5000
+[2026.10.26-18.42.47:411][564]LogTemp: Display: HERD_VM batch=5000 sim_count=5000 max_index=4999
+[2026.10.26-18.42.47:413][565]LogTemp: Display: HERD_STATE real=36.4 run=6 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=2 cpu_ms=96.156 frame_ms=130.118 serial=2 result=1 ortho=4400.0
+[2026.10.26-18.42.47:504][565]LogTemp: Display: HERD_VM batch=5000 sim_count=5000 max_index=4999
+[2026.10.26-18.42.49:533][585]LogTemp: Display: HERD_STATE real=38.5 run=6 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=22 cpu_ms=121.593 frame_ms=112.096 serial=22 result=21 ortho=4400.0
+[2026.10.26-18.42.51:632][602]LogTemp: Display: HERD_STATE real=40.6 run=6 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=39 cpu_ms=131.117 frame_ms=123.256 serial=39 result=38 ortho=4400.0
+[2026.10.26-18.42.53:664][615]LogTemp: Display: HERD_STATE real=42.7 run=6 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=52 cpu_ms=156.057 frame_ms=145.764 serial=52 result=51 ortho=4400.0
+[2026.10.26-18.42.55:802][626]LogTemp: Display: HERD_STATE real=44.8 run=6 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=63 cpu_ms=213.509 frame_ms=175.894 serial=63 result=62 ortho=4400.0
+[2026.10.26-18.42.56:399][629]LogTemp: Display: HERD_BENCH CPU,5000,0,30,169.8707,209.1493,166.1088,0,0,66,false,5000,true,168.2026,0.0149,0.0883,0.0000
+[2026.10.26-18.42.56:399][629]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E089142A20
+[2026.10.26-18.42.56:399][629]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E089142A20
+[2026.10.26-18.42.56:399][629]LogTemp: Display: HERD_ROUND run=7 mode=CPU count=500 assets=OK
+[2026.10.26-18.42.56:399][629]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.42.56:399][629]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.42.56:399][629]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.56:399][629]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.56:402][630]LogTemp: Display: HERD_SPAWN_LOCK rendered=500 requested=500
+[2026.10.26-18.42.56:403][630]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.56:405][631]LogTemp: Display: HERD_VM batch=500 sim_count=500 max_index=499
+[2026.10.26-18.42.57:802][950]LogTemp: Display: HERD_STATE real=46.8 run=7 mode=CPU count=500 rendered=500 rescued=0 callbacks=321 cpu_ms=1.082 frame_ms=4.152 serial=321 result=320 ortho=4400.0
+[2026.10.26-18.42.59:803][339]LogTemp: Display: HERD_STATE real=48.8 run=7 mode=CPU count=500 rendered=500 rescued=0 callbacks=710 cpu_ms=3.292 frame_ms=5.939 serial=710 result=709 ortho=4400.0
+[2026.10.26-18.43.01:804][702]LogTemp: Display: HERD_STATE real=50.8 run=7 mode=CPU count=500 rendered=500 rescued=0 callbacks=1073 cpu_ms=2.914 frame_ms=5.381 serial=1073 result=1072 ortho=4400.0
+[2026.10.26-18.43.03:808][ 50]LogTemp: Display: HERD_STATE real=52.8 run=7 mode=CPU count=500 rendered=500 rescued=0 callbacks=1421 cpu_ms=2.783 frame_ms=6.068 serial=1421 result=1420 ortho=4400.0
+[2026.10.26-18.43.05:402][319]LogTemp: Display: HERD_BENCH CPU,500,1,870,5.7459,7.3768,3.0366,0,0,1690,true,500,true,3.0450,0.0077,0.0467,0.0000
+[2026.10.26-18.43.05:402][319]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E08FE87170
+[2026.10.26-18.43.05:402][319]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E08FE87170
+[2026.10.26-18.43.05:402][319]LogTemp: Display: HERD_ROUND run=8 mode=CPU count=1000 assets=OK
+[2026.10.26-18.43.05:402][319]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.43.05:402][319]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.43.05:404][319]LogTemp: Display: HERD_VM batch=1000 sim_count=1000 max_index=999
+[2026.10.26-18.43.05:404][319]LogTemp: Display: HERD_VM batch=1000 sim_count=1000 max_index=999
+[2026.10.26-18.43.05:406][320]LogTemp: Display: HERD_SPAWN_LOCK rendered=1000 requested=1000
+[2026.10.26-18.43.05:409][320]LogTemp: Display: HERD_VM batch=1000 sim_count=1000 max_index=999
+[2026.10.26-18.43.05:412][321]LogTemp: Display: HERD_VM batch=1000 sim_count=1000 max_index=999
+[2026.10.26-18.43.05:811][413]LogTemp: Display: HERD_STATE real=54.8 run=8 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=94 cpu_ms=1.844 frame_ms=4.402 serial=94 result=93 ortho=4400.0
+[2026.10.26-18.43.07:823][699]LogTemp: Display: HERD_STATE real=56.8 run=8 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=380 cpu_ms=7.842 frame_ms=11.843 serial=380 result=379 ortho=4400.0
+[2026.10.26-18.43.09:824][848]LogTemp: Display: HERD_STATE real=58.8 run=8 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=529 cpu_ms=14.512 frame_ms=13.595 serial=529 result=528 ortho=4400.0
+[2026.10.26-18.43.11:827][984]LogTemp: Display: HERD_STATE real=60.8 run=8 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=665 cpu_ms=10.908 frame_ms=13.940 serial=665 result=664 ortho=4400.0
+[2026.10.26-18.43.13:833][111]LogTemp: Display: HERD_STATE real=62.8 run=8 mode=CPU count=1000 rendered=1000 rescued=0 callbacks=792 cpu_ms=13.000 frame_ms=16.091 serial=792 result=791 ortho=4400.0
+[2026.10.26-18.43.14:422][148]LogTemp: Display: HERD_BENCH CPU,1000,1,332,15.0928,18.3304,11.8712,0,0,829,false,1000,true,11.9036,0.0083,0.0541,0.0000
+[2026.10.26-18.43.14:422][148]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E09E1A7170
+[2026.10.26-18.43.14:422][148]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E09E1A7170
+[2026.10.26-18.43.14:422][148]LogTemp: Display: HERD_ROUND run=9 mode=CPU count=2000 assets=OK
+[2026.10.26-18.43.14:422][148]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.43.14:422][148]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.43.14:428][148]LogTemp: Display: HERD_VM batch=2000 sim_count=2000 max_index=1999
+[2026.10.26-18.43.14:428][148]LogTemp: Display: HERD_VM batch=2000 sim_count=2000 max_index=1999
+[2026.10.26-18.43.14:430][149]LogTemp: Display: HERD_SPAWN_LOCK rendered=2000 requested=2000
+[2026.10.26-18.43.14:439][149]LogTemp: Display: HERD_VM batch=2000 sim_count=2000 max_index=1999
+[2026.10.26-18.43.14:447][150]LogTemp: Display: HERD_VM batch=2000 sim_count=2000 max_index=1999
+[2026.10.26-18.43.15:845][272]LogTemp: Display: HERD_STATE real=64.8 run=9 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=124 cpu_ms=14.974 frame_ms=16.220 serial=124 result=123 ortho=4400.0
+[2026.10.26-18.43.17:861][328]LogTemp: Display: HERD_STATE real=66.9 run=9 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=180 cpu_ms=39.184 frame_ms=43.631 serial=180 result=179 ortho=4400.0
+[2026.10.26-18.43.19:876][372]LogTemp: Display: HERD_STATE real=68.9 run=9 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=224 cpu_ms=45.302 frame_ms=46.378 serial=224 result=223 ortho=4400.0
+[2026.10.26-18.43.21:915][414]LogTemp: Display: HERD_STATE real=70.9 run=9 mode=CPU count=2000 rendered=2000 rescued=0 callbacks=266 cpu_ms=54.033 frame_ms=49.687 serial=266 result=265 ortho=4400.0
+[2026.10.26-18.43.23:451][442]LogTemp: Display: HERD_BENCH CPU,2000,1,101,49.4239,58.8753,46.4072,0,0,294,false,2000,true,46.5360,0.0082,0.0665,0.0000
+[2026.10.26-18.43.23:451][442]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E0212852E0
+[2026.10.26-18.43.23:451][442]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E0212852E0
+[2026.10.26-18.43.23:451][442]LogTemp: Display: HERD_ROUND run=10 mode=CPU count=3500 assets=OK
+[2026.10.26-18.43.23:451][442]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.43.23:451][442]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.43.23:465][442]LogTemp: Display: HERD_VM batch=3500 sim_count=3500 max_index=3499
+[2026.10.26-18.43.23:465][442]LogTemp: Display: HERD_VM batch=3500 sim_count=3500 max_index=3499
+[2026.10.26-18.43.23:467][443]LogTemp: Display: HERD_SPAWN_LOCK rendered=3500 requested=3500
+[2026.10.26-18.43.23:485][443]LogTemp: Display: HERD_VM batch=3500 sim_count=3500 max_index=3499
+[2026.10.26-18.43.23:508][444]LogTemp: Display: HERD_VM batch=3500 sim_count=3500 max_index=3499
+[2026.10.26-18.43.23:937][466]LogTemp: Display: HERD_STATE real=72.9 run=10 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=24 cpu_ms=18.128 frame_ms=25.325 serial=24 result=23 ortho=4400.0
+[2026.10.26-18.43.26:004][516]LogTemp: Display: HERD_STATE real=75.0 run=10 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=74 cpu_ms=88.773 frame_ms=60.596 serial=74 result=73 ortho=4400.0
+[2026.10.26-18.43.28:033][538]LogTemp: Display: HERD_STATE real=77.0 run=10 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=96 cpu_ms=100.106 frame_ms=90.001 serial=96 result=95 ortho=4400.0
+[2026.10.26-18.43.30:089][557]LogTemp: Display: HERD_STATE real=79.1 run=10 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=115 cpu_ms=111.430 frame_ms=106.853 serial=115 result=114 ortho=4400.0
+[2026.10.26-18.43.32:178][574]LogTemp: Display: HERD_STATE real=81.2 run=10 mode=CPU count=3500 rendered=3500 rescued=0 callbacks=132 cpu_ms=124.046 frame_ms=121.117 serial=132 result=131 ortho=4400.0
+[2026.10.26-18.43.32:551][577]LogTemp: Display: HERD_BENCH CPU,3500,1,44,113.5351,135.3335,110.8016,0,0,135,false,3500,true,111.2946,0.0080,0.0786,0.0000
+[2026.10.26-18.43.32:551][577]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482328 instance=000001E09E1D52E0
+[2026.10.26-18.43.32:551][577]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdCPU.NS_HerdCPU:ComplexFew_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E09E1D52E0
+[2026.10.26-18.43.32:551][577]LogTemp: Display: HERD_ROUND run=11 mode=CPU count=5000 assets=OK
+[2026.10.26-18.43.32:551][577]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.43.32:551][577]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=0 gpu_script=-1
+[2026.10.26-18.43.32:595][577]LogTemp: Display: HERD_VM batch=5000 sim_count=5000 max_index=4999
+[2026.10.26-18.43.32:595][577]LogTemp: Display: HERD_VM batch=5000 sim_count=5000 max_index=4999
+[2026.10.26-18.43.32:598][578]LogTemp: Display: HERD_SPAWN_LOCK rendered=5000 requested=5000
+[2026.10.26-18.43.32:630][578]LogTemp: Display: HERD_VM batch=5000 sim_count=5000 max_index=4999
+[2026.10.26-18.43.32:668][579]LogTemp: Display: HERD_VM batch=5000 sim_count=5000 max_index=4999
+[2026.10.26-18.43.34:239][612]LogTemp: Display: HERD_STATE real=83.2 run=11 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=35 cpu_ms=63.833 frame_ms=59.325 serial=35 result=34 ortho=4400.0
+[2026.10.26-18.43.36:244][631]LogTemp: Display: HERD_STATE real=85.2 run=11 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=54 cpu_ms=152.079 frame_ms=104.165 serial=54 result=53 ortho=4400.0
+[2026.10.26-18.43.38:276][644]LogTemp: Display: HERD_STATE real=87.3 run=11 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=67 cpu_ms=168.679 frame_ms=139.783 serial=67 result=66 ortho=4400.0
+[2026.10.26-18.43.40:380][656]LogTemp: Display: HERD_STATE real=89.4 run=11 mode=CPU count=5000 rendered=5000 rescued=0 callbacks=79 cpu_ms=186.605 frame_ms=163.965 serial=79 result=78 ortho=4400.0
+[2026.10.26-18.43.41:623][663]LogTemp: Display: HERD_BENCH CPU,5000,1,29,168.7898,192.7492,166.0433,0,0,86,false,5000,true,167.0037,0.0074,0.0870,0.0000
+[2026.10.26-18.43.41:623][663]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E0A5EF48B0
+[2026.10.26-18.43.41:623][663]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E0A5EF48B0
+[2026.10.26-18.43.41:623][663]LogTemp: Display: HERD_ROUND run=12 mode=GPU count=10000 assets=OK
+[2026.10.26-18.43.41:623][663]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.43.41:623][663]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.43.41:626][664]LogTemp: Display: HERD_SPAWN_LOCK rendered=10000 requested=10000
+[2026.10.26-18.43.42:383][833]LogTemp: Display: HERD_STATE real=91.4 run=12 mode=GPU count=10000 rendered=10000 rescued=0 callbacks=28 cpu_ms=0.000 frame_ms=4.604 serial=170 result=162 ortho=4400.0
+[2026.10.26-18.43.44:385][279]LogTemp: Display: HERD_STATE real=93.4 run=12 mode=GPU count=10000 rendered=10000 rescued=0 callbacks=103 cpu_ms=0.000 frame_ms=4.392 serial=616 result=612 ortho=4400.0
+[2026.10.26-18.43.46:386][744]LogTemp: Display: HERD_STATE real=95.4 run=12 mode=GPU count=10000 rendered=10000 rescued=0 callbacks=180 cpu_ms=0.000 frame_ms=4.274 serial=1081 result=1074 ortho=4400.0
+[2026.10.26-18.43.48:387][225]LogTemp: Display: HERD_STATE real=97.4 run=12 mode=GPU count=10000 rendered=10000 rescued=0 callbacks=260 cpu_ms=0.000 frame_ms=4.358 serial=1562 result=1554 ortho=4400.0
+[2026.10.26-18.43.50:387][701]LogTemp: Display: HERD_STATE real=99.4 run=12 mode=GPU count=10000 rendered=10000 rescued=0 callbacks=340 cpu_ms=0.000 frame_ms=4.247 serial=2038 result=2034 ortho=4400.0
+[2026.10.26-18.43.50:627][757]LogTemp: Display: HERD_BENCH GPU,10000,1,1189,4.2030,4.6983,0.0000,0,9548,349,true,10000,true,0.0128,0.0077,0.0249,0.0000
+[2026.10.26-18.43.50:627][757]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E021560B90
+[2026.10.26-18.43.50:627][757]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E021560B90
+[2026.10.26-18.43.50:627][757]LogTemp: Display: HERD_ROUND run=13 mode=GPU count=25000 assets=OK
+[2026.10.26-18.43.50:627][757]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.43.50:627][757]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.43.50:630][758]LogTemp: Display: HERD_SPAWN_LOCK rendered=25000 requested=25000
+[2026.10.26-18.43.52:387][188]LogTemp: Display: HERD_STATE real=101.4 run=13 mode=GPU count=25000 rendered=25000 rescued=0 callbacks=72 cpu_ms=0.000 frame_ms=3.974 serial=431 result=426 ortho=4400.0
+[2026.10.26-18.43.54:391][675]LogTemp: Display: HERD_STATE real=103.4 run=13 mode=GPU count=25000 rendered=25000 rescued=0 callbacks=153 cpu_ms=0.000 frame_ms=4.148 serial=918 result=912 ortho=4400.0
+[2026.10.26-18.43.56:391][137]LogTemp: Display: HERD_STATE real=105.4 run=13 mode=GPU count=25000 rendered=25000 rescued=0 callbacks=230 cpu_ms=0.000 frame_ms=4.289 serial=1380 result=1374 ortho=4400.0
+[2026.10.26-18.43.58:397][597]LogTemp: Display: HERD_STATE real=107.4 run=13 mode=GPU count=25000 rendered=25000 rescued=0 callbacks=307 cpu_ms=0.000 frame_ms=4.641 serial=1840 result=1836 ortho=4400.0
+[2026.10.26-18.43.59:631][872]LogTemp: Display: HERD_BENCH GPU,25000,1,1142,4.3802,4.9912,0.0000,0,24518,352,true,25000,true,0.0134,0.0079,0.0258,0.0000
+[2026.10.26-18.43.59:631][872]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E08F5F15C0
+[2026.10.26-18.43.59:631][872]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E08F5F15C0
+[2026.10.26-18.43.59:631][872]LogTemp: Display: HERD_ROUND run=14 mode=GPU count=50000 assets=OK
+[2026.10.26-18.43.59:631][872]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.43.59:631][872]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.43.59:634][873]LogTemp: Display: HERD_SPAWN_LOCK rendered=50000 requested=50000
+[2026.10.26-18.44.00:398][ 46]LogTemp: Display: HERD_STATE real=109.4 run=14 mode=GPU count=50000 rendered=50000 rescued=0 callbacks=29 cpu_ms=0.000 frame_ms=4.323 serial=174 result=168 ortho=4400.0
+[2026.10.26-18.44.02:399][506]LogTemp: Display: HERD_STATE real=111.4 run=14 mode=GPU count=50000 rendered=50000 rescued=0 callbacks=106 cpu_ms=0.000 frame_ms=4.186 serial=634 result=630 ortho=4400.0
+[2026.10.26-18.44.04:404][973]LogTemp: Display: HERD_STATE real=113.4 run=14 mode=GPU count=50000 rendered=50000 rescued=0 callbacks=183 cpu_ms=0.000 frame_ms=4.486 serial=1101 result=1092 ortho=4400.0
+[2026.10.26-18.44.06:406][427]LogTemp: Display: HERD_STATE real=115.4 run=14 mode=GPU count=50000 rendered=50000 rescued=0 callbacks=259 cpu_ms=0.000 frame_ms=4.369 serial=1555 result=1548 ortho=4400.0
+[2026.10.26-18.44.08:408][890]LogTemp: Display: HERD_STATE real=117.4 run=14 mode=GPU count=50000 rendered=50000 rescued=0 callbacks=336 cpu_ms=0.000 frame_ms=4.351 serial=2018 result=2010 ortho=4400.0
+[2026.10.26-18.44.08:632][940]LogTemp: Display: HERD_BENCH GPU,50000,1,1149,4.3524,5.0750,0.0000,0,49487,345,true,50000,true,0.0128,0.0079,0.0256,0.0000
+[2026.10.26-18.44.08:632][940]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E0212885D0
+[2026.10.26-18.44.08:632][940]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E0212885D0
+[2026.10.26-18.44.08:632][940]LogTemp: Display: HERD_ROUND run=15 mode=GPU count=100000 assets=OK
+[2026.10.26-18.44.08:632][940]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.44.08:632][940]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.44.08:635][941]LogTemp: Display: HERD_SPAWN_LOCK rendered=100000 requested=100000
+[2026.10.26-18.44.10:409][350]LogTemp: Display: HERD_STATE real=119.4 run=15 mode=GPU count=100000 rendered=100000 rescued=0 callbacks=68 cpu_ms=0.000 frame_ms=4.580 serial=410 result=402 ortho=4400.0
+[2026.10.26-18.44.12:409][796]LogTemp: Display: HERD_STATE real=121.4 run=15 mode=GPU count=100000 rendered=100000 rescued=0 callbacks=143 cpu_ms=0.000 frame_ms=4.831 serial=856 result=852 ortho=4400.0
+[2026.10.26-18.44.14:409][232]LogTemp: Display: HERD_STATE real=123.4 run=15 mode=GPU count=100000 rendered=100000 rescued=0 callbacks=215 cpu_ms=0.000 frame_ms=4.437 serial=1292 result=1284 ortho=4400.0
+[2026.10.26-18.44.16:409][689]LogTemp: Display: HERD_STATE real=125.4 run=15 mode=GPU count=100000 rendered=100000 rescued=0 callbacks=291 cpu_ms=0.000 frame_ms=4.623 serial=1749 result=1740 ortho=4400.0
+[2026.10.26-18.44.17:635][972]LogTemp: Display: HERD_BENCH GPU,100000,1,1131,4.4214,5.2084,0.0000,0,99486,339,true,100000,true,0.0131,0.0079,0.0267,0.0000
+[2026.10.26-18.44.17:636][972]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E08F5F3E80
+[2026.10.26-18.44.17:636][972]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E08F5F3E80
+[2026.10.26-18.44.17:636][972]LogTemp: Display: HERD_ROUND run=16 mode=GPU count=200000 assets=OK
+[2026.10.26-18.44.17:636][972]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.44.17:636][972]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.44.17:639][973]LogTemp: Display: HERD_SPAWN_LOCK rendered=200000 requested=200000
+[2026.10.26-18.44.18:410][152]LogTemp: Display: HERD_STATE real=127.4 run=16 mode=GPU count=200000 rendered=200000 rescued=0 callbacks=30 cpu_ms=0.000 frame_ms=4.369 serial=180 result=174 ortho=4400.0
+[2026.10.26-18.44.20:412][613]LogTemp: Display: HERD_STATE real=129.4 run=16 mode=GPU count=200000 rendered=200000 rescued=0 callbacks=107 cpu_ms=0.000 frame_ms=4.569 serial=641 result=636 ortho=4400.0
+[2026.10.26-18.44.22:414][ 72]LogTemp: Display: HERD_STATE real=131.4 run=16 mode=GPU count=200000 rendered=200000 rescued=0 callbacks=183 cpu_ms=0.000 frame_ms=4.156 serial=1100 result=1092 ortho=4400.0
+[2026.10.26-18.44.24:414][544]LogTemp: Display: HERD_STATE real=133.4 run=16 mode=GPU count=200000 rendered=200000 rescued=0 callbacks=262 cpu_ms=0.000 frame_ms=4.085 serial=1572 result=1566 ortho=4400.0
+[2026.10.26-18.44.26:416][ 14]LogTemp: Display: HERD_STATE real=135.4 run=16 mode=GPU count=200000 rendered=200000 rescued=0 callbacks=340 cpu_ms=0.000 frame_ms=4.268 serial=2042 result=2034 ortho=4400.0
+[2026.10.26-18.44.26:639][ 62]LogTemp: Display: HERD_BENCH GPU,200000,1,1173,4.2639,5.0156,0.0000,0,199485,348,true,200000,true,0.0123,0.0079,0.0260,0.0000
+[2026.10.26-18.44.26:640][ 62]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E08F5F0B90
+[2026.10.26-18.44.26:640][ 62]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E08F5F0B90
+[2026.10.26-18.44.26:640][ 62]LogTemp: Display: HERD_ROUND run=17 mode=GPU count=400000 assets=OK
+[2026.10.26-18.44.26:640][ 62]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.44.26:640][ 62]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.44.26:643][ 63]LogTemp: Display: HERD_SPAWN_LOCK rendered=400000 requested=400000
+[2026.10.26-18.44.28:418][408]LogTemp: Display: HERD_STATE real=137.4 run=17 mode=GPU count=400000 rendered=400000 rescued=0 callbacks=58 cpu_ms=0.000 frame_ms=4.774 serial=346 result=342 ortho=4400.0
+[2026.10.26-18.44.30:420][863]LogTemp: Display: HERD_STATE real=139.4 run=17 mode=GPU count=400000 rendered=400000 rescued=0 callbacks=133 cpu_ms=0.000 frame_ms=4.338 serial=801 result=792 ortho=4400.0
+[2026.10.26-18.44.32:422][296]LogTemp: Display: HERD_STATE real=141.4 run=17 mode=GPU count=400000 rendered=400000 rescued=0 callbacks=206 cpu_ms=0.000 frame_ms=4.533 serial=1234 result=1230 ortho=4400.0
+[2026.10.26-18.44.34:424][756]LogTemp: Display: HERD_STATE real=143.4 run=17 mode=GPU count=400000 rendered=400000 rescued=0 callbacks=282 cpu_ms=0.000 frame_ms=4.523 serial=1694 result=1686 ortho=4400.0
+[2026.10.26-18.44.35:642][ 38]LogTemp: Display: HERD_BENCH GPU,400000,1,1128,4.4340,5.2942,0.0000,0,399482,329,true,400000,true,0.0133,0.0077,0.0269,0.0000
+[2026.10.26-18.44.35:643][ 38]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E09DC40160
+[2026.10.26-18.44.35:643][ 38]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E09DC40160
+[2026.10.26-18.44.35:643][ 38]LogTemp: Display: HERD_ROUND run=18 mode=GPU count=800000 assets=OK
+[2026.10.26-18.44.35:643][ 38]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.44.35:643][ 38]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.44.35:647][ 39]LogTemp: Display: HERD_SPAWN_LOCK rendered=800000 requested=800000
+[2026.10.26-18.44.36:427][140]LogTemp: Display: HERD_STATE real=145.4 run=18 mode=GPU count=800000 rendered=800000 rescued=0 callbacks=17 cpu_ms=0.000 frame_ms=7.738 serial=102 result=96 ortho=4400.0
+[2026.10.26-18.44.38:431][448]LogTemp: Display: HERD_STATE real=147.4 run=18 mode=GPU count=800000 rendered=800000 rescued=0 callbacks=68 cpu_ms=0.000 frame_ms=5.751 serial=410 result=402 ortho=4400.0
+[2026.10.26-18.44.40:435][816]LogTemp: Display: HERD_STATE real=149.4 run=18 mode=GPU count=800000 rendered=800000 rescued=0 callbacks=130 cpu_ms=0.000 frame_ms=5.299 serial=778 result=774 ortho=4400.0
+[2026.10.26-18.44.42:438][179]LogTemp: Display: HERD_STATE real=151.4 run=18 mode=GPU count=800000 rendered=800000 rescued=0 callbacks=190 cpu_ms=0.000 frame_ms=5.783 serial=1141 result=1134 ortho=4400.0
+[2026.10.26-18.44.44:444][546]LogTemp: Display: HERD_STATE real=153.4 run=18 mode=GPU count=800000 rendered=800000 rescued=0 callbacks=251 cpu_ms=0.000 frame_ms=5.810 serial=1508 result=1500 ortho=4400.0
+[2026.10.26-18.44.44:644][580]LogTemp: Display: HERD_BENCH GPU,800000,1,915,5.4647,6.3432,0.0000,0,799471,257,true,800000,true,0.0139,0.0081,0.0292,0.0000
+[2026.10.26-18.44.44:644][580]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E08DDD0B90
+[2026.10.26-18.44.44:644][580]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E08DDD0B90
+[2026.10.26-18.44.44:644][580]LogTemp: Display: HERD_ROUND run=19 mode=GPU count=1600000 assets=OK
+[2026.10.26-18.44.44:644][580]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.44.44:644][580]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.44.44:648][581]LogTemp: Display: HERD_SPAWN_LOCK rendered=1600000 requested=1600000
+[2026.10.26-18.44.46:446][737]LogTemp: Display: HERD_STATE real=155.4 run=19 mode=GPU count=1600000 rendered=1600000 rescued=0 callbacks=26 cpu_ms=0.000 frame_ms=10.444 serial=157 result=150 ortho=4400.0
+[2026.10.26-18.44.48:449][960]LogTemp: Display: HERD_STATE real=157.4 run=19 mode=GPU count=1600000 rendered=1600000 rescued=0 callbacks=63 cpu_ms=0.000 frame_ms=8.434 serial=380 result=372 ortho=4400.0
+[2026.10.26-18.44.50:454][212]LogTemp: Display: HERD_STATE real=159.5 run=19 mode=GPU count=1600000 rendered=1600000 rescued=0 callbacks=105 cpu_ms=0.000 frame_ms=8.849 serial=632 result=624 ortho=4400.0
+[2026.10.26-18.44.52:460][457]LogTemp: Display: HERD_STATE real=161.5 run=19 mode=GPU count=1600000 rendered=1600000 rescued=0 callbacks=146 cpu_ms=0.000 frame_ms=8.089 serial=877 result=870 ortho=4400.0
+[2026.10.26-18.44.53:652][608]LogTemp: Display: HERD_BENCH GPU,1600000,1,625,8.0077,9.0209,0.0000,0,1599461,171,true,1600000,true,0.0134,0.0078,0.0328,0.0000
+[2026.10.26-18.44.53:653][608]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E0A5EDA460
+[2026.10.26-18.44.53:653][608]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E0A5EDA460
+[2026.10.26-18.44.53:653][608]LogTemp: Display: HERD_ROUND run=20 mode=GPU count=3200000 assets=OK
+[2026.10.26-18.44.53:653][608]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.44.53:653][608]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.44.53:656][609]LogTemp: Display: HERD_SPAWN_LOCK rendered=3200000 requested=3200000
+[2026.10.26-18.44.54:468][647]LogTemp: Display: HERD_STATE real=163.5 run=20 mode=GPU count=3200000 rendered=3200000 rescued=0 callbacks=6 cpu_ms=0.000 frame_ms=21.013 serial=39 result=30 ortho=4400.0
+[2026.10.26-18.44.56:483][761]LogTemp: Display: HERD_STATE real=165.5 run=20 mode=GPU count=3200000 rendered=3200000 rescued=0 callbacks=25 cpu_ms=0.000 frame_ms=16.062 serial=153 result=144 ortho=4400.0
+[2026.10.26-18.44.58:494][905]LogTemp: Display: HERD_STATE real=167.5 run=20 mode=GPU count=3200000 rendered=3200000 rescued=0 callbacks=49 cpu_ms=0.000 frame_ms=13.205 serial=297 result=288 ortho=4400.0
+[2026.10.26-18.45.00:505][ 50]LogTemp: Display: HERD_STATE real=169.5 run=20 mode=GPU count=3200000 rendered=3200000 rescued=0 callbacks=74 cpu_ms=0.000 frame_ms=14.495 serial=442 result=438 ortho=4400.0
+[2026.10.26-18.45.02:512][198]LogTemp: Display: HERD_STATE real=171.5 run=20 mode=GPU count=3200000 rendered=3200000 rescued=0 callbacks=98 cpu_ms=0.000 frame_ms=13.592 serial=590 result=582 ortho=4400.0
+[2026.10.26-18.45.02:668][208]LogTemp: Display: HERD_BENCH GPU,3200000,1,367,13.6201,15.2395,0.0000,0,3199458,100,true,3200000,true,0.0139,0.0082,0.0394,0.0000
+[2026.10.26-18.45.02:668][208]LogTemp: Display: HERD_DI_INIT /Game/Maps/L_Herding.L_Herding:PersistentLevel.HerdDirector_2147482414.Flock.HerdDataInterface_2147482327 instance=000001E0212815C0
+[2026.10.26-18.45.02:668][208]LogTemp: Display: HERD_DI_INIT /Game/Herd/NS_HerdGPU.NS_HerdGPU:SimpleMany_1.UpdateScript_1_0.HerdDataInterface_0 instance=000001E0212815C0
+[2026.10.26-18.45.02:668][208]LogTemp: Display: HERD_ROUND run=21 mode=GPU count=4000000 assets=OK
+[2026.10.26-18.45.02:668][208]LogTemp: Display: HERD_ASSET_READY valid=1 ready=1 spawn=1 update=1
+[2026.10.26-18.45.02:668][208]LogTemp: Display: HERD_EMITTER_READY enabled=1 valid=1 ready=1 target=1 gpu_script=1
+[2026.10.26-18.45.02:671][209]LogTemp: Display: HERD_SPAWN_LOCK rendered=4000000 requested=4000000
+[2026.10.26-18.45.04:530][283]LogTemp: Display: HERD_STATE real=173.5 run=21 mode=GPU count=4000000 rendered=4000000 rescued=0 callbacks=12 cpu_ms=0.000 frame_ms=22.835 serial=75 result=66 ortho=4400.0
+[2026.10.26-18.45.06:538][390]LogTemp: Display: HERD_STATE real=175.5 run=21 mode=GPU count=4000000 rendered=4000000 rescued=0 callbacks=30 cpu_ms=0.000 frame_ms=17.466 serial=182 result=174 ortho=4400.0
+[2026.10.26-18.45.08:544][514]LogTemp: Display: HERD_STATE real=177.5 run=21 mode=GPU count=4000000 rendered=4000000 rescued=0 callbacks=51 cpu_ms=0.000 frame_ms=17.667 serial=306 result=300 ortho=4400.0
+[2026.10.26-18.45.10:550][634]LogTemp: Display: HERD_STATE real=179.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=0 callbacks=71 cpu_ms=0.000 frame_ms=16.370 serial=426 result=420 ortho=4400.0
+[2026.10.26-18.45.11:674][704]LogTemp: Display: HERD_BENCH GPU,4000000,1,306,16.2968,18.1550,0.0000,0,3999449,83,false,4000000,true,0.0134,0.0080,0.0410,0.0000
+[2026.10.26-18.45.11:676][704]LogTemp: Display: HERD_BENCHMARK_COMPLETE ../../../NiagaraHerd/Saved/Benchmarks/HerdSweep-20261026-144511.csv
+[2026.10.26-18.45.12:550][757]LogTemp: Display: HERD_STATE real=181.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=0 callbacks=91 cpu_ms=0.000 frame_ms=17.822 serial=549 result=540 ortho=4400.0
+[2026.10.26-18.45.14:554][848]LogTemp: Display: HERD_STATE real=183.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=0 callbacks=107 cpu_ms=0.000 frame_ms=23.629 serial=640 result=636 ortho=4400.0
+[2026.10.26-18.45.16:560][926]LogTemp: Display: HERD_STATE real=185.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=1 callbacks=120 cpu_ms=0.000 frame_ms=25.902 serial=718 result=714 ortho=4400.0
+[2026.10.26-18.45.18:561][  3]LogTemp: Display: HERD_STATE real=187.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=158906 callbacks=132 cpu_ms=0.000 frame_ms=25.674 serial=795 result=786 ortho=4400.0
+[2026.10.26-18.45.20:563][ 80]LogTemp: Display: HERD_STATE real=189.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=267460 callbacks=145 cpu_ms=0.000 frame_ms=26.486 serial=872 result=864 ortho=4400.0
+[2026.10.26-18.45.22:588][156]LogTemp: Display: HERD_STATE real=191.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=280268 callbacks=158 cpu_ms=0.000 frame_ms=26.386 serial=948 result=942 ortho=4400.0
+[2026.10.26-18.45.24:610][235]LogTemp: Display: HERD_STATE real=193.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=418791 callbacks=171 cpu_ms=0.000 frame_ms=25.219 serial=1027 result=1020 ortho=4400.0
+[2026.10.26-18.45.26:619][319]LogTemp: Display: HERD_STATE real=195.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=595818 callbacks=185 cpu_ms=0.000 frame_ms=23.245 serial=1111 result=1104 ortho=4400.0
+[2026.10.26-18.45.28:634][408]LogTemp: Display: HERD_STATE real=197.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=807624 callbacks=200 cpu_ms=0.000 frame_ms=22.477 serial=1200 result=1194 ortho=4400.0
+[2026.10.26-18.45.30:649][497]LogTemp: Display: HERD_STATE real=199.6 run=21 mode=GPU count=4000000 rendered=4000000 rescued=918697 callbacks=215 cpu_ms=0.000 frame_ms=22.551 serial=1289 result=1284 ortho=4400.0
+[2026.10.26-18.45.31:019][513]LogTemp: Display: HERD_TEST_COMPLETE
+[2026.10.26-18.45.31:019][513]LogWindows: FPlatformMisc::RequestExit(0, <NoCallSiteInfo>)
+[2026.10.26-18.45.31:019][513]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, <NoCallSiteInfo>)
+[2026.10.26-18.45.31:019][513]LogCore: Engine exit requested (reason: Win RequestExit)
+[2026.10.26-18.45.31:040][514]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.26-18.45.31:069][514]LogInit: Display: PreExit Game.
+[2026.10.26-18.45.31:072][514]LogWorld: BeginTearingDown for /Game/Maps/L_Herding
+[2026.10.26-18.45.31:072][514]LogWorld: UWorld::CleanupWorld for L_Herding, bSessionEnded=true, bCleanupResources=true
+[2026.10.26-18.45.31:073][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.26-18.45.31:074][514]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.26-18.45.32:010][514]LogSlate: Request Window 'NiagaraHerd (64-bit Development PCD3D_SM6) ' being destroyed
+[2026.10.26-18.45.32:010][514]LogSlate: Window 'NiagaraHerd (64-bit Development PCD3D_SM6) ' being destroyed
+[2026.10.26-18.45.32:016][514]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.10.26-18.45.32:019][514]LogExit: Preparing to exit.
+[2026.10.26-18.45.32:019][514]LogMoviePlayer: Shutting down movie player
+[2026.10.26-18.45.32:025][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.26-18.45.32:026][514]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.26-18.45.32:027][514]LogExit: Game engine shut down
+[2026.10.26-18.45.32:059][514]LogExit: Object subsystem successfully closed.
+[2026.10.26-18.45.32:079][514]LogShaderLibrary: Display: Closing logical shader library 'Global' with 1 components
+[2026.10.26-18.45.32:109][514]LogShaderLibrary: Display: Closing logical shader library 'NiagaraHerd' with 1 components
+[2026.10.26-18.45.32:118][514]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.26-18.45.32:131][514]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.26-18.45.32:131][514]RenderDocPlugin: plugin has been unloaded.
+[2026.10.26-18.45.32:132][514]LogPakFile: Destroying PakPlatformFile
+[2026.10.26-18.45.32:671][514]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.10.26-18.45.32:686][514]LogExit: Exiting.
+[2026.10.26-18.45.32:707][514]Log file closed, 10/26/26 14:45:32

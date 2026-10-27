@@ -1,0 +1,94 @@
+#include "/Engine/Public/Platform.ush"
+
+struct Agent { float4 P; float4 V; };
+StructuredBuffer<Agent> InputAgents;
+RWStructuredBuffer<Agent> OutputAgents;
+RWStructuredBuffer<uint> GridCounts;
+RWStructuredBuffer<uint> GridIndices;
+RWStructuredBuffer<uint> Summary;
+uint AgentCount;
+uint Initialize;
+float DeltaTime;
+float SimTime;
+float3 Player;
+float3 Goal;
+float Attract;
+float Pulse;
+uint Frozen;
+#define GX 25
+#define GY 15
+#define CAPACITY 64
+uint Hash(uint X) { X ^= X >> 16; X *= 0x7feb352d; X ^= X >> 15; X *= 0x846ca68b; X ^= X >> 16; return X; }
+float Random(uint X) { return float(Hash(X) & 0x00ffffff) / 16777216.0; }
+float2 Unit(float2 V) { return V * rsqrt(max(dot(V,V), 0.0001)); }
+int2 CellOf(float2 P) { return clamp(int2((P+float2(1500,900))/120),int2(0,0),int2(GX-1,GY-1)); }
+
+[numthreads(64,1,1)]
+void InitializeCS(uint3 DT : SV_DispatchThreadID)
+{
+    uint I=DT.x; if (I>=AgentCount) return;
+    Agent A;
+    A.P=float4(-1250+600*Random(I*3+731),-650+1300*Random(I*3+732),35,0);
+    float Angle=Random(I*3+733)*6.2831853;
+    A.V=float4(cos(Angle)*115,sin(Angle)*115,0,0);
+    OutputAgents[I]=A;
+}
+
+[numthreads(64,1,1)]
+void BuildGridCS(uint3 DT : SV_DispatchThreadID)
+{
+    uint I=DT.x; if(I>=AgentCount || InputAgents[I].P.w>0.5) return;
+    int2 C=CellOf(InputAgents[I].P.xy);
+    uint Cell=C.x+C.y*GX;
+    uint Slot; InterlockedAdd(GridCounts[Cell],1,Slot);
+    if(Slot<CAPACITY) GridIndices[Cell*CAPACITY+Slot]=I;
+    else InterlockedAdd(Summary[1],1);
+}
+
+[numthreads(64,1,1)]
+void SimulateCS(uint3 DT : SV_DispatchThreadID)
+{
+    uint I=DT.x; if(I>=AgentCount) return;
+    Agent A=InputAgents[I];
+    if(A.P.w>0.5) { OutputAgents[I]=A; InterlockedAdd(Summary[0],1); return; }
+    float2 P=A.P.xy,V=A.V.xy;
+    float2 Separation=0,Alignment=0,Center=0; uint N=0;
+    int2 C=CellOf(P);
+    // Bounded neighbor samples prevent quadratic work at 100k+ particles.
+    // Grid overflows are counted and displayed; the approximation is documented.
+    [loop] for(int Y=-1;Y<=1;++Y) [loop] for(int X=-1;X<=1;++X)
+    {
+        int2 CC=C+int2(X,Y);
+        if(any(CC<0)||CC.x>=GX||CC.y>=GY) continue;
+        uint Cell=CC.x+CC.y*GX;
+        uint Available=min(GridCounts[Cell],CAPACITY);
+        uint Samples=min(Available,8u);
+        [loop] for(uint S=0;S<Samples;++S)
+        {
+            uint Slot=(S*7+I)%max(Available,1u);
+            uint J=GridIndices[Cell*CAPACITY+Slot];
+            if(J==I) continue;
+            Agent B=InputAgents[J]; float2 D=B.P.xy-P; float D2=dot(D,D);
+            if(D2<1 || D2>12100 || B.P.w>0.5) continue;
+            Separation-=D/max(D2,16.0); Alignment+=B.V.xy; Center+=B.P.xy; ++N;
+        }
+    }
+    float2 Acc=Unit(Separation)*135;
+    if(N>0) { Acc+=(Unit(Alignment/N)*145-V)*0.7; Acc+=Unit(Center/N-P)*65; }
+    float2 Away=P-Player.xy; float Distance=length(Away); float Speed=190;
+    if(Attract>0.5 && Distance<850) { if(Distance>100) Acc-=Unit(Away)*440; Speed=210; }
+    else if(Distance<340+Pulse*260) { Acc+=Unit(Away)*(650+Pulse*950); Speed=270; }
+    if(P.x<-1360) Acc.x+=700; if(P.x>1360) Acc.x-=700;
+    if(P.y<-760) Acc.y+=700; if(P.y>760) Acc.y-=700;
+    if(Frozen==0)
+    {
+        V+=Acc*DeltaTime;
+        V=Unit(V)*clamp(length(V),70,Speed);
+        P+=V*DeltaTime;
+    }
+    P=clamp(P,float2(-1470,-870),float2(1470,870));
+    bool Captured=dot(P-Goal.xy,P-Goal.xy)<240*240;
+    A.P=float4(P,35,Captured?1:0); A.V=float4(Captured?float2(0,0):V,0,0);
+    OutputAgents[I]=A;
+    if(Captured) InterlockedAdd(Summary[0],1);
+}

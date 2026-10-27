@@ -1,0 +1,13 @@
+/Binaries/
+/Build/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Packaged/
+/Submission/
+/Docs/Tidekeeper-Demo.mp4
+/.vs/
+/.idea/
+*.sln
+*.suo
+*.VC.db

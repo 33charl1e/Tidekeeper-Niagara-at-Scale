@@ -1,0 +1,42 @@
+# Unchanged automation-result excerpt from SimulationTests.log.
+# Unrelated engine startup and device enumeration messages are omitted.
+
+[2026.10.26-17.42.50:391][  2]LogAutomationCommandLine: Display: Ready to start automation
+[2026.10.26-17.42.55:422][303]LogAutomationWorker: Received FindWorkersMessage from 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:423][303]LogAutomationController: Received FindWorkersResponseMessage from 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:423][303]LogAutomationController: Requesting test list from 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:438][304]LogAutomationWorker: Received RequestTestsMessage from 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:471][304]LogAutomationWorker: Set 4855 tests to 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:471][304]LogAutomationController: Received RequestTestsReplyCompleteMessage from 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:473][304]LogAutomationController: 4855 tests available on 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:494][304]LogAutomationCommandLine: Display: Found 3 automation tests based on 'NiagaraHerd.Simulation'
+[2026.10.26-17.42.55:494][304]LogAutomationCommandLine: Display: 	NiagaraHerd.Simulation.CaptureIsAbsorbing
+[2026.10.26-17.42.55:494][304]LogAutomationCommandLine: Display: 	NiagaraHerd.Simulation.HashMatchesAllPairs
+[2026.10.26-17.42.55:494][304]LogAutomationCommandLine: Display: 	NiagaraHerd.Simulation.InputChangesTrajectory
+[2026.10.26-17.42.55:494][304]LogAutomationController: Sending StopTests to 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:496][304]LogAutomationController: Sending StartTestSession to 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:496][304]LogAutomationController: Display: Clearing ../../../../../../UnrealProjects/NiagaraHerd/Saved/Automation/Logs/ and ../../../../../../UnrealProjects/NiagaraHerd/Saved/Automation/Tmp/
+[2026.10.26-17.42.55:497][304]LogAutomationController: Sending RunTest CaptureIsAbsorbing to 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:497][304]LogAutomationController: Display: Test Started. Name={CaptureIsAbsorbing} Path={NiagaraHerd.Simulation.CaptureIsAbsorbing}
+[2026.10.26-17.42.55:497][305]LogAutomationWorker: Received StopTests from 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:498][305]LogAutomationWorker: Received StartTestSession from 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:498][305]LogAutomationWorker: Received RunTests CaptureIsAbsorbing from 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:531][307]LogAutomationController: Display: Test Completed. Result={Success} Name={CaptureIsAbsorbing} Path={NiagaraHerd.Simulation.CaptureIsAbsorbing}
+[2026.10.26-17.42.55:531][307]LogAutomationController: BeginEvents: NiagaraHerd.Simulation.CaptureIsAbsorbing
+[2026.10.26-17.42.55:531][307]LogAutomationController: EndEvents: NiagaraHerd.Simulation.CaptureIsAbsorbing
+[2026.10.26-17.42.55:532][307]LogAutomationController: Sending RunTest HashMatchesAllPairs to 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:532][307]LogAutomationController: Display: Test Started. Name={HashMatchesAllPairs} Path={NiagaraHerd.Simulation.HashMatchesAllPairs}
+[2026.10.26-17.42.55:548][308]LogAutomationWorker: Received RunTests HashMatchesAllPairs from 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:581][310]LogAutomationController: Display: Test Completed. Result={Success} Name={HashMatchesAllPairs} Path={NiagaraHerd.Simulation.HashMatchesAllPairs}
+[2026.10.26-17.42.55:581][310]LogAutomationController: BeginEvents: NiagaraHerd.Simulation.HashMatchesAllPairs
+[2026.10.26-17.42.55:581][310]LogAutomationController: EndEvents: NiagaraHerd.Simulation.HashMatchesAllPairs
+[2026.10.26-17.42.55:582][310]LogAutomationController: Sending RunTest InputChangesTrajectory to 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:582][310]LogAutomationController: Display: Test Started. Name={InputChangesTrajectory} Path={NiagaraHerd.Simulation.InputChangesTrajectory}
+[2026.10.26-17.42.55:597][311]LogAutomationWorker: Received RunTests InputChangesTrajectory from 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:630][313]LogAutomationController: Display: Test Completed. Result={Success} Name={InputChangesTrajectory} Path={NiagaraHerd.Simulation.InputChangesTrajectory}
+[2026.10.26-17.42.55:630][313]LogAutomationController: BeginEvents: NiagaraHerd.Simulation.InputChangesTrajectory
+[2026.10.26-17.42.55:630][313]LogAutomationController: EndEvents: NiagaraHerd.Simulation.InputChangesTrajectory
+[2026.10.26-17.42.55:631][313]LogAutomationController: Sending StopTestSession to 08221C7C4E695A7C60ADBABF648B91AE
+[2026.10.26-17.42.55:648][314]LogAutomationWorker: Received StopTestSession from 841E4FB444A70691559B68A4B938FCF3
+[2026.10.26-17.42.55:648][314]LogAutomationCommandLine: Shutting down. GIsCriticalError=0
+[2026.10.26-17.42.55:648][314]LogAutomationCommandLine: Display: **** TEST COMPLETE. EXIT CODE: 0 ****

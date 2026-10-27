@@ -1,0 +1,53 @@
+{
+  "video": "Tidekeeper-Demo.mp4",
+  "video_sha256": "6a8369b5be3b9ce628c139118afb2a4d9373b9475f6fa249bff0cc22a77c6fc0",
+  "container": {
+    "width": 1920,
+    "height": 1080,
+    "frames": 2250,
+    "duration_seconds": 75.0,
+    "fps": 30.0,
+    "transform": "identity"
+  },
+  "decoder": "Media Foundation NV12, top-down planar YUV",
+  "comparison": "Decoded pixels compared with original capture PNGs without display transforms",
+  "samples": [
+    {
+      "segment": "CPU",
+      "seconds": 12,
+      "source_frame": 360,
+      "mean_absolute_pixel_error": {
+        "identity": 0.47629,
+        "vertical_flip": 3.51892,
+        "horizontal_flip": 3.56019,
+        "rotate_180": 3.86167
+      },
+      "orientation": "upright"
+    },
+    {
+      "segment": "GPU",
+      "seconds": 44,
+      "source_frame": 1320,
+      "mean_absolute_pixel_error": {
+        "identity": 0.47378,
+        "vertical_flip": 3.55308,
+        "horizontal_flip": 4.17309,
+        "rotate_180": 3.59213
+      },
+      "orientation": "upright"
+    },
+    {
+      "segment": "Stats",
+      "seconds": 70,
+      "source_frame": 2100,
+      "mean_absolute_pixel_error": {
+        "identity": 2.41537,
+        "vertical_flip": 14.63978,
+        "horizontal_flip": 20.17959,
+        "rotate_180": 21.76307
+      },
+      "orientation": "upright"
+    }
+  ],
+  "result": "passed"
+}
